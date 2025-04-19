@@ -8,7 +8,7 @@ The Overlay Renderer allows creating an overlay using processing. It works by cr
 
 One can use the program below except if you click on something drawn with the renderer. There is an option that one can click on the window below regardless.
 
-There is an issue with MacOS where this doesn't work. The overlay will properly render however the window below can't be interacted with this is a well-known bug in the JDK.
+There is an issue with MacOS where this doesn't work. The overlay will properly render however the window below can't be interacted with because a bug in the JDK.
 
 ### Usage
 When calling size one can access the overlay renderer the follwing way:
@@ -31,8 +31,8 @@ This, as the name implies prevents processing from opening a window when startin
 ### Usage
 As with the last renderer one can put the renderer in the third argument when calling size.
 
-´´´java
+```java
 size(100,100,usefulrenderers.UsefulRenderers.NOWINDOW)
-´´´
+```
 
 Since no window will be created anything inputted into size will not have any effect on the program.
