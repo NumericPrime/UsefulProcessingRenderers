@@ -13,9 +13,9 @@ There is an issue with MacOS where this doesn't work. The overlay will properly 
 <h2>Usage</h2>
 When calling size one can access the overlay renderer the follwing way:
 
-```java
+´´´java
 size(100,100,usefulrenderers.UsefulRenderers.OVERLAY)
-```
+´´´
 
 any arguments passed for window-size will be ignored.
 The background command will still paint the whole screen. Calling background(0,0,0,0); will fill the screen with transparent pixels allowing seeing and using the program below. 
@@ -31,8 +31,8 @@ This, as the name implies prevents processing from opening a window when startin
 <h2>Usage</h2>
 As with the last renderer one can put the renderer in the third argument when calling size.
 
-```java
+´´´java
 size(100,100,usefulrenderers.UsefulRenderers.NOWINDOW)
-```
+´´´
 
 Since no window will be created anything inputted into size will not have any effect on the program.
